@@ -8,14 +8,19 @@ body {background-color: #eae2b7;color: #003049;
 
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {font-family: "Source Sans Pro", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
+
 h2{font-family: "Source Sans Pro", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
+
 h3 {
   font-family: "Source Sans Pro", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
-nav {text-align: center;}
+
+nav {text-align: center;
+    }
+.nav-item{margin-right: 30px;}
 
 article {
   padding: 50px 0;
-text-align: left;}
+text-align: left; margin: auto; width: 50%}
 
 article div {
   text-align: center;
@@ -26,24 +31,26 @@ p {
   line-height: 1.5; text-align: left;
 }
 
-ul{text-align: left;}
+footer > p {text-align: center;}
 
-ol{text-align: left;}
+ul{text-align: left}
+
+ol{text-align: left}
 
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
-  width: 600px;
+  width: 600px
 }
 
 img {
   width: 100%;
   max-width: 200px;
-  height: auto;
+  height: auto
 }
 
 hr {
-  border: 1px solid black;
+  border: 1px solid black
 }
 
 /* Add your solution below */
@@ -52,4 +59,3 @@ hr {
 
 a {color: #d62828}
 a:hover {color: #f77f00}
-
